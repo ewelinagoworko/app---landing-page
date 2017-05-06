@@ -1,0 +1,23 @@
+@import 'variables';
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: $main-color;
+	margin: 0;
+	font-family: $main-font;
+}
+
+header {
+	width: 100%;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	position: relative;
+	height: 100%;
+}
+
