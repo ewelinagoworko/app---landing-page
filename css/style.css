@@ -18,6 +18,10 @@ header, section {
 .yellow {
   color: #ecd407; }
 
+.col-1-2 {
+  width: 50%;
+  float: left; }
+
 header {
   position: absolute;
   background-color: transparent;
@@ -68,3 +72,24 @@ header {
     right: 8%;
     width: 370px;
     top: 25%; }
+  #form-section #main-form {
+    background-color: #001d8a; }
+    #form-section #main-form fieldset {
+      border-style: none; }
+      #form-section #main-form fieldset input:not([type="submit"]), #form-section #main-form fieldset textarea {
+        padding: 10px;
+        width: 100%;
+        margin-bottom: 10px;
+        font-family: "Open Sans", sans-serif; }
+      #form-section #main-form fieldset input[type="submit"] {
+        padding: 20px;
+        background-color: #ecd407;
+        font-size: 1.2em;
+        font-weight: 700;
+        border: 0px solid #fff;
+        margin-bottom: 10px;
+        transition: all .3s;
+        font-family: "Open Sans", sans-serif; }
+        #form-section #main-form fieldset input[type="submit"]:hover {
+          background-color: #fff;
+          cursor: pointer; }
